@@ -6,6 +6,7 @@
 	<modules>
 		<module>publisher</module>
 		<module>receiver</module>
+		<module>testing</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -42,6 +43,11 @@
 			<groupId>org.springframework.amqp</groupId>
 			<artifactId>spring-rabbit-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.12</version>
 		</dependency>
 	</dependencies>
 

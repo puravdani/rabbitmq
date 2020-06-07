@@ -1,4 +1,4 @@
-package rabbitmq;
+package com.receiver;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
